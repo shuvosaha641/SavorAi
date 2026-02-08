@@ -39,6 +39,19 @@ serviceAccountKey.json
 Api key/
 Api key/*
 
+# Firebase/Google service configs (treat as sensitive)
+google-services.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Env and secret files
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+*.keystore
+
 # Symbolication related
 app.*.symbols
 
